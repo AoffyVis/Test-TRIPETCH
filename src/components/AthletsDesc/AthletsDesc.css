@@ -94,7 +94,7 @@
     .Athlets_desc_container .connection_content,
     .Athlets_desc_container .collab_content,
     .Athlets_desc_container .growth_content {
-        width: 65%;
+        width: 60%;
         margin-left: 291px;
     }
 
@@ -112,14 +112,6 @@
         letter-spacing: 0.837px;
     }
 }
-
-/* @media only screen and (max-width: 630px) {
-
-    .Athlets_desc_container #topic {
-        font-size: calc(1rem + 16px);
-    }
-
-} */
 
 @media only screen and (max-width: 320px) {
 

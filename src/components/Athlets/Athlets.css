@@ -38,7 +38,7 @@
     .Athlets_section:before {
         width: 498px;
         height: 699px;
-        /* left: -161px; */
+        left: -161px;
         left: calc(100vw - (768px + 161px));
         top: 121px;
     }
@@ -49,14 +49,6 @@
     }
 
 }
-
-/* @media only screen and (max-width: 630px) {
-
-    .Athlets_header span {
-        font-size: calc(16px + 48px);
-    }
-
-} */
 
 @media only screen and (max-width: 320px) {
 

@@ -100,14 +100,6 @@
 
 }
 
-/* @media only screen and (max-width: 630px) {
-
-    .Player_desc_container #topic {
-        font-size: calc(1rem + 16px);
-    }
-
-} */
-
 @media only screen and (max-width: 320px) {
 
     .Player_desc_container{

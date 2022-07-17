@@ -9,7 +9,8 @@
     position: absolute;
     width: 991px;
     height: 815px;
-    right: 125px;
+    /* right: 125px; */
+    left: calc(100vw - (1920px - 825px));
     margin-top: -150px;
     background-image: url("../../assets/img/player.svg");
     background-size: contain;
@@ -25,7 +26,7 @@
 
 .Player_header span {
     font-family: 'Roboto';
-    font-size: 5rem;
+    font-size: 90px;
     line-height: 105px;
     color: var(--header-color);
     padding-left: 200px;
@@ -49,10 +50,6 @@
     }
     
 }
-
-/* @media only screen and (max-width: 630px) {
-
-} */
 
 @media only screen and (max-width: 320px) {
 
