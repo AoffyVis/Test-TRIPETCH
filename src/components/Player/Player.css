@@ -9,8 +9,7 @@
     position: absolute;
     width: 991px;
     height: 815px;
-    /* right: 125px; */
-    left: calc(100vw - (1920px - 825px));
+    right: 125px;
     margin-top: -150px;
     background-image: url("../../assets/img/player.svg");
     background-size: contain;
@@ -30,6 +29,15 @@
     line-height: 105px;
     color: var(--header-color);
     padding-left: 200px;
+}
+
+@media only screen and (max-width: 1700px) {
+
+    .Player_section:before {
+        width: 60%;
+        right: 0px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {

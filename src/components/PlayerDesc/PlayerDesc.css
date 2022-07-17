@@ -5,7 +5,7 @@
 .Player_desc_container .connection_container,
 .Player_desc_container .collab_container,
 .Player_desc_container .growth_container {
-    height: 256px;
+    min-height: 256px;
     display: flex;
     align-items: center;
 }
