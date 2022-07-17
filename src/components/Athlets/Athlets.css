@@ -1,0 +1,85 @@
+.Athlets_section {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.Athlets_section:before {
+    content:"";
+    position: absolute;
+    width: 678px;
+    height: 950px;
+    /* left: 175px;  */
+    left: calc(100vw - (1920px - 175px));
+    top: 35px;
+    background-image: url("../../assets/img/football.svg");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    z-index: 9;
+}
+
+.Athlets_header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-left: 50%;
+    margin-top: 24px;
+}
+
+.Athlets_header span {
+    font-family: 'Roboto';
+    font-size: 5rem;
+    line-height: 105px;
+    color: var(--header-color);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .Athlets_section:before {
+        width: 498px;
+        height: 699px;
+        /* left: -161px; */
+        left: calc(100vw - (768px + 161px));
+        top: 121px;
+    }
+
+    .Athlets_header {
+        margin-top: 81px;
+        padding-left: 291px;
+    }
+
+}
+
+/* @media only screen and (max-width: 630px) {
+
+    .Athlets_header span {
+        font-size: calc(16px + 48px);
+    }
+
+} */
+
+@media only screen and (max-width: 320px) {
+
+    .Athlets_header {
+        margin-top: 0px;
+        padding-left: 19px;
+    }
+
+    .Athlets_section:before {
+        width: 200px;
+        height: 281px;
+        left: 70px;
+        top: 70px;
+    }
+
+    .Athlets_header span {
+        font-size: 50px;
+        line-height: 59px;
+    }
+
+    .Athlets_body {
+        margin-top: 296px;
+    }
+
+}
+

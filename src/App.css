@@ -1,38 +1,32 @@
+:root {
+  --header-color: #E7E7E7;
+  --white: #ffffff;
+  --black: #000000;
+  --second-container: #F5F4F9;
+  --third-container: #5E3DB3;
+  --player-third-container: #090C35;
+  --purple-underline: #603EBE;
+  --topic-color: #C2C2C2;
+  --third-number: #8F6BE8;
+  --dot-color: #D8D8D8;
+  --dot-color-active: #5C3CAF;
+}
+
 .App {
-  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Athlets_container,
+.Player_container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 768px) {
+  .App {
+    overflow-x: hidden !important;
   }
 }
